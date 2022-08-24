@@ -1,10 +1,10 @@
 
 
-## AWS CodePipeline generator to deploy CDK project
+## AWS Developer Tools to deploy AWS CDK project
 
 This project creates a pipeline with AWS CodePipeline to be able to deploy any project created in AWS CDK. This project can be updated and new steps can be added which will automatically update the pipeline. It is a project that creates and updates itself.
 
-![](doc/arch-design-cicd-pipeline.drawio.png)
+
 
 ### Stack
 
