@@ -4,7 +4,7 @@
 
 This project creates a pipeline with AWS CodePipeline to be able to deploy any project created in AWS CDK. This project can be updated and new steps can be added which will automatically update the pipeline. It is a project that creates and updates itself.
 
-
+![](arch-design-aws.png)
 
 ### Stack
 
@@ -49,7 +49,4 @@ PipelineStack(app,
               props=properties,
               **template=template**,
               tags=tags)
-```      
-##### pdoc: Auto-generate API documentation for Python projects
- Place inside app or cicd folder to update pdoc type:
-pdoc --html stacks --force
+```     
